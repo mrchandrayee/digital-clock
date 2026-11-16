@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Clock</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="wrapper">
+
+  <div class="clock-panel">
+    <div class="pulse-ring"></div>
+
+    <div class="time-display">
+      <div class="seg">
+        <div class="digits" id="hrs" data-ghost="88">00</div>
+        <div class="seg-label">Hours</div>
+      </div>
+      <div class="colon">:</div>
+      <div class="seg">
+        <div class="digits" id="mins" data-ghost="88">00</div>
+        <div class="seg-label">Minutes</div>
+      </div>
+      <div class="colon">:</div>
+      <div class="seg">
+        <div class="digits" id="secs" data-ghost="88">00</div>
+        <div class="seg-label">Seconds</div>
+      </div>
+      <div class="ampm" id="ampm">AM</div>
+    </div>
+  </div>
+
+  <div class="rule"></div>
+  <div class="date-bar" id="date-bar">—</div>
+  <div class="rule"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
